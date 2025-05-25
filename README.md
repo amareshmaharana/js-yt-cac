@@ -7,12 +7,13 @@ exploring javascript with github codespace
 <h3>Messages to all developers</h3>
 Code redability should be clear and high for a good and experience developer.
 
-<br/>
-<b>Learned Topics</b>
+
+<h2>Learned Topics</h2>
 <ul>
     <li>let, const, var</li>
     <li>Variables & Data-types</li>
     <li>Datatype Conversion</li>
+    <li>Conversion Operations</li>
 </ul>
 
 <h5>Checkout all above topics in this repo</h5>
