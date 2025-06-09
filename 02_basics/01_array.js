@@ -1,4 +1,4 @@
-// Array
+// Array - 1
 
 const arr1 = [1, 2, 3, 4, 5, 6]
 const heros = ["Iron Man", "Superman"]
