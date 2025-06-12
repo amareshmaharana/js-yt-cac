@@ -64,3 +64,15 @@ console.log(Object.entries(aUser1));
 
 // to check property of object use hasOwnProperty()
 console.log(aUser1.hasOwnProperty('id'))
+
+
+
+const course = {
+    courseName: "JavaScript in Hindi",
+    price: "670",
+    courseInstructor: "Tom Matt"
+}
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
