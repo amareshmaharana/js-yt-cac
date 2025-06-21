@@ -50,5 +50,18 @@
 </ul>
 
 
+<h3>🚀 Phase 5</h3>
+<ul>
+    <li>Filter</li>
+    <li>forEach</li>
+    <li>for in loop</li>
+    <li>for loop</li>
+    <li>for of loop</li>
+    <li>map</li>
+    <li>reduce</li>
+    <li>while & do_while loop</li>
+</ul>
+
+
 
 <h4>🧑‍💻 Checkout all above topics in this repo in sequential order</h4>
