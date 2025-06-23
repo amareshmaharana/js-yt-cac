@@ -62,12 +62,20 @@
     <li>while & do_while loop</li>
 </ul>
 
+<br />
+<p>Basic part is end here!!</p>
 
 <h3>🚀 Phase 6</h3>
 <ul>
-    <li>DOM</li>
+    <p>DOM - Document Object Model</p>
+    <li>Intro</li>
+    <li>DOM Selector</li>
+    <li>Create new element</li>
+    <li>Manipulating DOM elements</li>
 </ul>
 
 
+<h4>🚀 Checkout all above topics in this repo in sequential order!!</h4>
 
-<h4>🧑‍💻 Checkout all above topics in this repo in sequential order</h4>
+
+### 🧑‍💻 Happy Coding with JavaScript
