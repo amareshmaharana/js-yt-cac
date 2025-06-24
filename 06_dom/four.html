@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Fourth Lesson</title>
+</head>
+<body style="background-color: #000; color: #fff; font-family: HP Simplified, sans-serif; font-size: 40px; margin-left: 17rem; padding: 20px;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+
+<script>
+    const addLanguage = (language) => {
+        const ul = document.querySelector('.language');
+        const li = document.createElement('li');
+        li.textContent = language;
+        ul.appendChild(li);
+    };
+    addLanguage('Python');
+    addLanguage('Java');
+
+    // optimized version
+    const moreLanguages = (lang) => {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(lang));
+        document.querySelector('.language').appendChild(li);
+    }
+    moreLanguages('C++');
+    moreLanguages('C#');
+
+
+    // Edit
+    const newLang = document.querySelector('li:nth-child(2)')
+    const newLi = document.createElement('li');
+    newLi.textContent = 'Bcrypt';
+    newLang.replaceWith(newLi);
+
+    const firstLang = document.querySelector('li:first-child');
+    firstLang.outerHTML = '<li>TypeScript</li>';
+
+    // remove
+    const lastLang = document.querySelector('li:last-child');
+    lastLang.remove();
+</script>
+
+</html>
