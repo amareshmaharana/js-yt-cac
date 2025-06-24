@@ -72,6 +72,7 @@
     <li>DOM Selector</li>
     <li>Create new element</li>
     <li>Manipulating DOM elements</li>
+    <li>Edit or remove at DOM element</li>
 </ul>
 
 
