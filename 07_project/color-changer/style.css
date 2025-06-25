@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.canvas {
+    text-align: center;
+    margin-top: 11rem;
+    font-family: 'HP Simplified', sans-serif;
+    padding: 50px;
+}
+
+.button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding: 3rem 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#grey {
+    background-color: #808080;
+}
+
+#white {
+    background-color: #ffffff;
+}
+
+#blue {
+    background-color: #007bff;
+}
+
+#yellow {
+    background-color: #ffff00;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
