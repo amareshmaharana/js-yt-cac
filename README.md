@@ -75,6 +75,14 @@
     <li>Edit or remove at DOM element</li>
 </ul>
 
+<h3>🚀 Project Phase</h3>
+<ul>
+    <li>01 - Color Changer</li>
+    <li>02 - BMI Calculator</li>
+    <li>03 - Digital Clock</li>
+    <li>04 - Guess the number</li>
+</ul>
+
 
 <h4>🚀 Checkout all above topics in this repo in sequential order!!</h4>
 
