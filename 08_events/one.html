@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <ul id="images">
+        <li><img src="https://picsum.photos/200/300" alt="Random Image 1" id="image1"></li>
+        <li><img src="https://picsum.photos/200/300?grayscale" alt="Random Image 2" id="image2"></li>
+        <li><img src="https://picsum.photos/200/300?blur=2" alt="Random Image 3" id="image3"></li>
+        <li><img src="https://picsum.photos/200/300?random=1" alt="Random Image 4" id="image4"></li>
+    </ul>
+</body>
+<script>
+    // event
+    /*
+        -> type, timeStamp, defaultPrevented
+        -> target, toElement, srcElement, currentTarget
+        -> clientX, clientY, screenX, screenY
+        -> altKey, ctrlKey, shiftKey, metaKey
+    */
+    // document.getElementById('image1').addEventListener('click', function(e) {
+    //     // console.log(e);
+    // }, false);
+
+    // event propagation
+    // document.querySelector('.images').addEventListener('click', function(e) {
+    //     console.log('Image container clicked');
+    // }, false);
+
+    // document.getElementById('image2').addEventListener('click', function(e) {
+    //     console.log('Image 2 clicked');
+    //     e.stopPropagation(); // Prevents the event from bubbling up to the parent
+    // }, false)
+    
+    document.querySelector('#images').addEventListener('click', function(e) {
+        console.log(e.target.tagName);
+        if (e.target.tagName === 'IMG') {
+            console.log(e.target.id);
+            let removeIt = e.target.parentNode
+            removeIt.remove()
+        }
+    }, false);
+</script>
+
+</html>
