@@ -2,7 +2,7 @@
 <p align="center">exploring javascript with github codespace</p>
 
 
-<h3><b>GitHub Codespace</b></h3>
+<h3><b>GitHub Codespace:</b></h3>
 <ul>
     <li>It is a code editor.</li>
     <li>Here codes are all executed and explored in GitHub Codespaces!!</li>
@@ -81,6 +81,13 @@
     <li>02 - BMI Calculator</li>
     <li>03 - Digital Clock</li>
     <li>04 - Guess the number</li>
+</ul>
+
+
+<h3>🚀 Phase 7</h3>
+<ul>
+    <li>Events</li>
+    <li>Event propagation</li>
 </ul>
 
 
