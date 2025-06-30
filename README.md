@@ -75,7 +75,7 @@
     <li>Edit or remove at DOM element</li>
 </ul>
 
-<h3>🚀 Project Phase</h3>
+<h3>🚀 1st Project Phase</h3>
 <ul>
     <li>01 - Color Changer</li>
     <li>02 - BMI Calculator</li>
@@ -91,6 +91,13 @@
 </ul>
 
 
+<h3>🚀 2nd Project Phase</h3>
+<ul>
+    <li>Keyboard Check</li>
+    <li>Unlimited Colors Changer</li>
+</ul>
+
+<br />
 <h4>🚀 Checkout all above topics in this repo in sequential order!!</h4>
 
 
