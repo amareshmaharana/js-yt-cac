@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Codestarzz LLC</h1>
+    <button style="font-size: 25px;" id="btn">Start</button>
+    <button style="font-size: 25px;" id="btn2">Stop</button>
+</body>
+<script>
+    const startBtn = document.getElementById('btn');
+    const stopBtn = document.getElementById('btn2');
+
+    let intervalId;
+
+    startBtn.addEventListener('click', () => {
+        const dummyPrint = () => {
+            console.log("Hello");
+        }
+
+        intervalId = setInterval(dummyPrint, 1000);
+    });
+
+    stopBtn.addEventListener('click', () => {
+        clearInterval(intervalId);
+    });
+</script>
+</html>
