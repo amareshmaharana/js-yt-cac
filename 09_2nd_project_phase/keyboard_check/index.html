@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center; font-family: 'Bai Jamjuree', sans-serif; background-color: #f0f0f0; color: #333;">
+    <h1 style="font-size: 48px;">Keyboard Check</h1>
+    <p style="font-size: 24px;">Press any key to see the key code.</p>
+    <div id="output" style="font-size: 24px; color: #333;"></div>
+</body>
+<script>
+    document.addEventListener('keydown', (event) => {
+        const output = document.getElementById('output');
+        output.textContent = `Key pressed: ${event.key} (Code: ${event.code})`;
+    });
+</script>
+</html>
