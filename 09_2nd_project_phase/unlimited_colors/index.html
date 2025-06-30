@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlimited Colors changer</title>
+</head>
+<body style="text-align: center; font-family: 'HP Simplified'; background-color: #000; color: #fff; font-weight: bold;">
+    <h1 style="font-size: 48px;">Unlimited Colors</h1>
+    <button id="startBtn" style="font-size: 25px;">Start</button>
+    <button id="stopBtn" style="font-size: 25px;">Stop</button>
+</body>
+<script>
+    const startBtn = document.getElementById('startBtn');
+    const stopBtn = document.getElementById('stopBtn');
+
+    let intervalId;
+
+    startBtn.addEventListener('click', () => {
+        const changeColor = () => {
+            document.body.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+        }
+
+        intervalId = setInterval(changeColor, 1000);
+    });
+
+    stopBtn.addEventListener('click', () => {
+        clearInterval(intervalId);
+    });
+</script>
+</html>
+
+</html>
