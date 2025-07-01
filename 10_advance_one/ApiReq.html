@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>API REQUEST</h1>
+</body>
+
+<script>
+    const reqUrl = 'https://api.github.com/users/amareshmaharana'
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", reqUrl)
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+                const data = JSON.parse(xhr.responseText);
+                console.log(data);
+                console.log(data.avatar_url);
+            } else {
+                console.error('Error:', xhr.statusText);
+            }
+        }
+    };
+    console.log(xhr.readyState);
+    xhr.send()
+</script>
+</html>
