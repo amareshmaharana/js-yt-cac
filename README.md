@@ -100,6 +100,13 @@
 <br/>
 <p>Advanced topic start from here!</p>
 
+
+<h3>🚀 Phase 8</h3>
+<ul>
+    <li>API Request - XMLHttpRequest & V8 Engine</li>
+    <li>Promise</li>
+</ul>
+
 <br />
 <h4>🚀 Checkout all above topics in this repo in sequential order!!</h4>
 
