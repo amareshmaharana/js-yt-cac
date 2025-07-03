@@ -103,7 +103,7 @@
 
 <h3>🚀 Phase 8</h3>
 <ul>
-    <li>API Request - XMLHttpRequest & V8 Engine</li>
+    <li>API Request - XMLHttpRequest (before used, then come fetch function) & V8 Engine</li>
     <li>Promise</li>
 </ul>
 
