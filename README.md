@@ -104,7 +104,15 @@
 <h3>🚀 Phase 8</h3>
 <ul>
     <li>API Request - XMLHttpRequest (before used, then come fetch function) & V8 Engine</li>
-    <li>Promise</li>
+    <li>Promise & fetch</li>
+</ul>
+
+
+<h3>🚀 Phase 9</h3>
+<ul>
+    <li>OOP</li>
+    <li>new, this (keyword)</li>
+    <li>Constructor</li>
 </ul>
 
 <br />
