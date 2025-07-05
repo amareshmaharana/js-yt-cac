@@ -1,0 +1,30 @@
+Javascript with classes
+
+OOP - OBJECT ORIENTED PROGRAMMING
+
+-> OBJECT
+    - Collection of properities, methods
+
+
+-_-_-_- Why use OOP -_-_-_-
+
+
+=> part of OOP
+    -> Object literal
+
+- Constructor function
+- Prototypes
+- classes
+- Instances (new, this)
+
+
+=> 4 pillars
+    - Abstraction
+    - Encapsulation
+    - Polymorphism
+    - Inheritance
+
+
++++ online it +++
+-> instanceof
+-> .constructor
